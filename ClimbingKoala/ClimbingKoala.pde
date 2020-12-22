@@ -59,15 +59,12 @@ ellipse(x-7, pmouseY+27, 25, 25);
 ellipse(x+30, y+27, 70, 31);
 ellipse(x-2, pmouseY+68, 25, 30);
 ellipse(x+33, y+68, 72, 45);
-
 //face
 fill(52,25,0);
 ellipse(x+40, y-20, 22, 27);
 ellipse(x+18, y-30, 10, 10);
 ellipse(x+60, y-30, 10, 10); 
-
 }
-
 //draw star(code from Processing.org Reference)
 void star(float x, float y, float radius1, float radius2, int npoints) {
   float angle = TWO_PI / npoints;
